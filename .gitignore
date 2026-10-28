@@ -1,0 +1,33 @@
+# Временные файлы 1С
+*.cf.tmp
+*.epf.tmp
+*.erf.tmp
+*.log
+*.tmp
+*.bak
+*.1sb
+
+# Кэш и временные папки
+/.cache/
+/__pycache__/
+
+# Бинарные артефакты и служебные файлы
+/bin/
+/dist/
+
+# Файлы блокировок и локальные настройки
+/.1CV8/
+*.log
+*.tmp
+
+# Служебные файлы инструментов
+/DumpFilesIndex.txt
+/ConfigDumpInfo.xml
+
+# Конфигурации поставщиков (бинарные слепки)
+/src/Configuration/ParentConfigurations.bin
+/src/Configuration/ParentConfigurations/**
+
+# Локальные базы данных
+*.1CD
+*.CD
