@@ -32,8 +32,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>КБ99</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КБ 99</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
@@ -247,10 +252,16 @@
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonPicture>МиниСклад</CommonPicture>
+			<CommonModule>РаботаСоСправочниками</CommonModule>
+			<CommonModule>РаботаСДокументами</CommonModule>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Enum>ВидыТовары</Enum>
+			<Report>Товары</Report>
+			<InformationRegister>Цены</InformationRegister>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
